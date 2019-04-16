@@ -4,8 +4,6 @@ import { Provider } from "react-redux";
 // if you're in create-react-app import the files as:
 import store from "./js/store/index";
 import App from "./js/components/App.jsx";
-// eslint-disable-next-line
-import index from "./js/index"
 
 
 render(

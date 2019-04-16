@@ -1,7 +1,7 @@
 import React from "react"
 import {connect} from "react-redux"
 
-
+// connecting state.articles with the component
 const mapStateToProps= state => {
   return {articles : state.articles}
 };

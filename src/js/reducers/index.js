@@ -6,6 +6,8 @@ const initialState = {
 
 function rootReducer (state = initialState, action){
     if (action.type === ADD_ARTICLE) {
+
+        // Creating a copy of state and returning to make initial state immutable
         return Object.assign({}, state, {
             articles: state.articles.concat(action.payload)
         });
